@@ -21,6 +21,7 @@ def get_zhihu_hot_questions(limit=10):
         list: 热榜问题列表
     """
     # 尝试多种方法获取知乎热榜
+    
     methods = [
         get_zhihu_hot_via_api,
         get_zhihu_hot_via_web,
